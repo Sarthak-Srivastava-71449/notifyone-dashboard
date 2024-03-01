@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditNode Test-Suite Match Edit Node Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-9/12 mt-12   mx-auto wallet-wrapper shadow-md"
+  >
+    <h2
+      class="text-lg font-semibold raven-form-title text-center py-1"
+    >
+      Edit Node Form
+    </h2>
+    <div
+      class="py-2 px-3 flex-col flex"
+    >
+      <div
+        class="flex mb-3 flex-col"
+      >
+        <div
+          class="input-label  flex w-full"
+        >
+          <span
+            class="text-sm node-name font-semibold whitespace-nowrap"
+            data-testid="data-name"
+          >
+            Node Name
+            <span
+              class="px-1"
+            >
+              :
+            </span>
+          </span>
+          <span
+            class="w-full"
+            data-testid="textArea"
+          >
+            <textarea
+              class="ant-input"
+              rows="4"
+            />
+          </span>
+        </div>
+        <div
+          class="no-character flex"
+        >
+          <div
+            class="width-9"
+          />
+          <div
+            class="width-91"
+          />
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center"
+      >
+        <button
+          class="button primary-button mr-1.5"
+          data-testid="custom-button"
+        >
+          Back
+        </button>
+        <span
+          class="popconfrim"
+        >
+          <button
+            class="button primary-button "
+            data-testid="custom-button"
+          >
+            Update
+          </button>
+           
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

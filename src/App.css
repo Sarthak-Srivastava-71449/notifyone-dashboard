@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind CSS Config File */
+
+@import 'antd/dist/antd.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* header menu css (start) */
+
+.ant-popover-buttons .ant-btn-primary.ant-btn-sm {
+  background: #fff !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  border-color: #d9d9d9 !important;
+}
+
+.ant-popover-buttons .ant-btn-primary.ant-btn-sm:hover {
+  color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}
+
+.communication-top-menu > li:hover {
+  background-color: #ffff !important;
+}
+
+.communication-top-menu > li:hover a {
+  color: #40a9ff !important;
+}
+
+.communication-top-menu > li:nth-last-child(2) {
+  margin-left: auto !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: #1890ff !important;
+}
+
+.communication-top-menu > li:hover span {
+  color: #40a9ff !important;
+}
+
+.communication-top-menu > li:hover .anticon svg {
+  fill: #1890ff !important;
+}
+
+.communication-top-menu > li .anticon svg {
+  fill: #fff !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #fff !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected .anticon svg {
+  fill: #1890ff !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected > span > a:hover {
+  color: #1890ff !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  color: #fff !important;
+  background: #1890ff !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-sub .ant-menu-item {
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: #ffff !important;
+}
+
+.ant-menu-dark .ant-menu-item:hover .anticon svg {
+  display: inline-block;
+  fill: #1890ff !important;
+}
+
+.ant-menu-horizontal > .ant-menu-submenu,
+.ant-menu-item {
+  margin: 2px 6px;
+  margin-top: 2px !important;
+  border-radius: 6px;
+}
+
+.ant-menu-dark .ant-menu-item-selected .anticon + span {
+  color: #1890ff;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: #1890ff !important;
+}
+
+.raven-wrapper a {
+  color: #1890ff;
+}
+
+/* header menu css (end) */
+
+.ant-table-thead > tr > th {
+  font-weight: 600;
+  background: #1890ff2e !important;
+  border-right: 1px solid rgb(0 0 0 / 13%) !important;
+  border-bottom: 1px solid rgb(0 0 0 / 13%) !important;
+}
+
+.ant-table-tbody > tr > td {
+  font-weight: 400;
+  border-right: 1px solid rgb(0 0 0 / 13%) !important;
+  border-bottom: 1px solid rgb(0 0 0 / 13%) !important;
+}
+
+.ant-table-tbody > tr > td:first-child {
+  word-break: normal !important;
+  width: auto;
+}
+
+.ant-table-tbody > tr > td:last-child {
+  word-break: normal !important;
+  width: auto;
+}
+
+.ant-table-tbody > tr > td {
+  word-break: break-word !important;
+  width: 380px;
+}
+
+.jsoneditor-mode-code {
+  height: 360px !important;
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should display Button 1`] = `
+<DocumentFragment>
+  <button
+    class="button primary-button undefined"
+    data-testid="custom-button"
+  />
+</DocumentFragment>
+`;

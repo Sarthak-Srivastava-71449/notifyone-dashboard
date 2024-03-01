@@ -1,0 +1,75 @@
+[
+  {
+    "name": "text_only",
+    "icon": "FileTextOutlined",
+    "role": "COMMUNICATION_APP",
+    "children": [
+      {
+        "name": "sms",
+        "icon": "MessageOutlined",
+        "link": "templates/sms",
+        "role": "COMMUNICATION"
+      },
+      {
+        "name": "whatsapp",
+        "icon": "WhatsAppOutlined",
+        "link": "templates/whatsapp",
+        "role": "COMMUNICATION"
+      },
+      {
+        "name": "transactional_push_notification",
+        "icon": "NotificationOutlined",
+        "link": "templates/transaction",
+        "role": "COMMUNICATION"
+      }
+    ]
+  },
+  {
+    "name": "html_based",
+    "icon": "Html5Outlined",
+    "role": "COMMUNICATION_APP",
+    "children": [
+      {
+        "name": "email",
+        "icon": "MailOutlined",
+        "link": "templates/email",
+        "role": "COMMUNICATION"
+      }
+    ]
+  },
+  {
+    "name": "search",
+    "icon": "SearchOutlined",
+    "role": "COMMUNICATION_APP",
+    "link": "templates"
+  },
+  {
+    "name": "raven",
+    "icon": "MedicineBoxOutlined",
+    "role": "COMMUNICATION_RAVEN",
+    "children": [
+      {
+        "name": "root_node",
+        "icon": "NodeExpandOutlined",
+        "link": "raven",
+        "role": "COMMUNICATION_RAVEN"
+      },
+      {
+        "name": "create_node_action",
+        "icon": "SisternodeOutlined",
+        "link": "raven/action/create",
+        "role": "COMMUNICATION_RAVEN"
+      },
+      {
+        "name": "create_node",
+        "icon": "SubnodeOutlined",
+        "link": "raven/node/create",
+        "role": "COMMUNICATION_RAVEN"
+      }
+    ]
+  },
+  {
+    "name": "logout",
+    "icon": "LogoutOutlined"
+  }
+]

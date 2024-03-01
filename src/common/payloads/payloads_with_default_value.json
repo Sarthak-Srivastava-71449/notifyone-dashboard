@@ -1,0 +1,17 @@
+{
+  "{{city_name}}": "Gurgaon",
+  "{{new_pincode}}": "122001",
+  "{{old_pincode}}": "243601",
+  "{{refund_amount}}": "Rs.105.0",
+  "{{refund_cashback}}": "Rs.60.00",
+  "{{full_name}}": "Aranya Das",
+  "{{street_name}}": "b2",
+  "{{state_name}}": "Gurgaon",
+  "{{pin_code}}": "243601",
+  "{{phone_number}}": "9536379816",
+  "{{order_id}}": "PO05222309470031",
+  "{{order_item}}": "Glimpil 2mg Tablet",
+  "{{order_amount}}": "Rs.60.00",
+  "{{shipping_amount}}": "Rs.45.00",
+  "{{order_quantity}}": "2"
+}

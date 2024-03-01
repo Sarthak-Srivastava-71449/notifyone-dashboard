@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check-Box-Fields Test-Suite Match Check Box Field Snapshot 1`] = `
+<DocumentFragment>
+  <label
+    class="ant-checkbox-wrapper regular-checkbox"
+  >
+    <span
+      class="ant-checkbox"
+    >
+      <input
+        class="ant-checkbox-input"
+        id=""
+        name=""
+        type="checkbox"
+        value=""
+      />
+      <span
+        class="ant-checkbox-inner"
+      />
+    </span>
+    <span />
+  </label>
+</DocumentFragment>
+`;

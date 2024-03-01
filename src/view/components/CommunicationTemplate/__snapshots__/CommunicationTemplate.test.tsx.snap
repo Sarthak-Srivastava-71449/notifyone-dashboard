@@ -1,0 +1,2142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommunicationTemplate should display email event when email event details are provided 1`] = `
+<DocumentFragment>
+  <div
+    class="px-10 py-10"
+  >
+    <div
+      class="ant-row"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Type
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Email"
+            >
+              Email
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Event name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter event name"
+          type="text"
+          value="ccq_orders_time_reporting"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Application Name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter application name"
+          type="text"
+          value="off"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Enabled
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <button
+          aria-checked="false"
+          class="ant-switch bg-app-theme"
+          role="switch"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            Off
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Trigger limit
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          pattern="[+-]?\\\\d+(?:[.,]\\\\d+)?"
+          placeholder="Enter trigger limit"
+          type="number"
+          value="-1"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Description
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          placeholder="Enter description"
+          type="text"
+          value="ccq_orders_time_reporting"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Subject
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          placeholder="Enter subject"
+          type="text"
+          value="CCQ Reporting"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Select include
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Select include"
+            >
+              Select include
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-4"
+      >
+        <span
+          class="required"
+        >
+          Content
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          class="ant-input-textarea ant-input-textarea-show-count"
+          data-count="5"
+        >
+          <textarea
+            class="ant-input"
+            placeholder="Event text / content"
+            style="resize: none; height: -40px; min-height: -16px; max-height: -40px;"
+          >
+            p PFA
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-end pt-8"
+    >
+      <div
+        class="ant-col"
+      >
+        <button
+          class="button primary-button min-w-[120px]"
+          data-testid="preview-event-button"
+        >
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommunicationTemplate should display new CommunicationTemplate screen with empty details 1`] = `
+<DocumentFragment>
+  <div
+    class="px-10 py-10"
+  >
+    <div
+      class="ant-row"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Type
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="SMS"
+            >
+              SMS
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Event name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter event name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Application Name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter application name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Enabled
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <button
+          aria-checked="false"
+          class="ant-switch bg-app-theme"
+          role="switch"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            Off
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Trigger limit
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          pattern="[+-]?\\\\d+(?:[.,]\\\\d+)?"
+          placeholder="Enter trigger limit"
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Select include
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Select include"
+            >
+              Select include
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-4"
+      >
+        <span
+          class="required"
+        >
+          Event text
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          class="ant-input-textarea ant-input-textarea-show-count"
+          data-count="0"
+        >
+          <textarea
+            class="ant-input"
+            placeholder="Event text / content"
+            style="resize: none; height: -40px; min-height: -16px; max-height: -40px;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-end pt-8"
+    >
+      <div
+        class="ant-col"
+      >
+        <button
+          class="button primary-button min-w-[120px]"
+          data-testid="preview-event-button"
+        >
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommunicationTemplate should display pushNotification event when pushNotification event details are provided 1`] = `
+<DocumentFragment>
+  <div
+    class="px-10 py-10"
+  >
+    <div
+      class="ant-row"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Type
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Transactional Push Notification"
+            >
+              Transactional Push Notification
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Event name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter event name"
+          type="text"
+          value="last_days_before_expiry"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Application Name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter application name"
+          type="text"
+          value="offer_service"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Enabled
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <button
+          aria-checked="false"
+          class="ant-switch bg-app-theme"
+          role="switch"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            Off
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Trigger limit
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          pattern="[+-]?\\\\d+(?:[.,]\\\\d+)?"
+          placeholder="Enter trigger limit"
+          type="number"
+          value="-1"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter title"
+          type="text"
+          value="{{title}}"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Image
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter image url"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Target
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="DYNAMIC TARGET"
+            >
+              DYNAMIC TARGET
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Select include
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Select include"
+            >
+              Select include
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-4"
+      >
+        <span
+          class="required"
+        >
+          Message
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          class="ant-input-textarea ant-input-textarea-show-count"
+          data-count="8"
+        >
+          <textarea
+            class="ant-input"
+            placeholder="Event text / content"
+            style="resize: none; height: -40px; min-height: -16px; max-height: -40px;"
+          >
+            {{body}}
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-divider ant-divider-horizontal"
+      role="separator"
+    />
+    <div
+      class="ant-row pt-2"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-24 text-left"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Payload(s)
+      </div>
+    </div>
+    <div
+      class="ant-row my-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          id="payloads-outer-box"
+          name="outer-box"
+          style="display: block; overflow: none; height: 200px; width: 100%; margin: 0px; box-sizing: border-box; position: relative;"
+        >
+          <div
+            style="opacity: 1; height: 30px; width: 30px; position: absolute; top: 0px; right: 0px; transform: translate(-25%,25%); pointer-events: none; transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+          >
+            <svg
+              height="30px"
+              viewBox="0 0 100 100"
+              width="30px"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M39.363,79L16,55.49l11.347-11.419L39.694,56.49L72.983,23L84,34.085L39.363,79z"
+                fill="green"
+                fill-rule="evenodd"
+                opacity="0.85"
+              />
+            </svg>
+          </div>
+          <div
+            id="payloads-container"
+            name="container"
+            style="display: block; height: 200px; width: 100%; margin: 0px; box-sizing: border-box; overflow: hidden; font-family: Roboto, sans-serif;"
+          >
+            <div
+              id="payloads-warning-box"
+              name="warning-box"
+              style="display: block; overflow: hidden; height: 0px; width: 100%; margin: 0px; background-color: rgb(254, 236, 235); transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+            >
+              <span
+                style="display: inline-block; height: 60px; width: 60px; margin: 0px; box-sizing: border-box; overflow: hidden; vertical-align: top; pointer-events: none;"
+              >
+                <div
+                  style="position: relative; top: 0px; left: 0px; height: 60px; width: 60px; margin: 0px; pointer-events: none;"
+                >
+                  <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;"
+                  >
+                    <svg
+                      height="25px"
+                      viewBox="0 0 100 100"
+                      width="25px"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M73.9,5.75c0.467-0.467,1.067-0.7,1.8-0.7c0.7,0,1.283,0.233,1.75,0.7l16.8,16.8  c0.467,0.5,0.7,1.084,0.7,1.75c0,0.733-0.233,1.334-0.7,1.801L70.35,50l23.9,23.95c0.5,0.467,0.75,1.066,0.75,1.8  c0,0.667-0.25,1.25-0.75,1.75l-16.8,16.75c-0.534,0.467-1.117,0.7-1.75,0.7s-1.233-0.233-1.8-0.7L50,70.351L26.1,94.25  c-0.567,0.467-1.167,0.7-1.8,0.7c-0.667,0-1.283-0.233-1.85-0.7L5.75,77.5C5.25,77,5,76.417,5,75.75c0-0.733,0.25-1.333,0.75-1.8  L29.65,50L5.75,26.101C5.25,25.667,5,25.066,5,24.3c0-0.666,0.25-1.25,0.75-1.75l16.8-16.8c0.467-0.467,1.05-0.7,1.75-0.7  c0.733,0,1.333,0.233,1.8,0.7L50,29.65L73.9,5.75z"
+                        fill="red"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </span>
+              <span
+                style="display: inline-block; height: 60px; width: calc(100% - 60px); margin: 0px; overflow: hidden; vertical-align: top; position: absolute; pointer-events: none;"
+              />
+            </div>
+            <div
+              id="payloads-body"
+              name="body"
+              style="display: flex; overflow: none; height: 100%; margin: 0px; resize: none; font-family: Roboto Mono, Monaco, monospace; font-size: 11px; background-color: rgb(252, 253, 253); transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+            >
+              <span
+                id="payloads-labels"
+                name="labels"
+                style="display: inline-block; box-sizing: border-box; vertical-align: top; height: 100%; width: 44px; margin: 0px; padding: 5px 0px 5px 10px; overflow: hidden; color: rgb(212, 212, 212);"
+              >
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  1
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  2
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  3
+                </div>
+              </span>
+              <span
+                autocapitalize="off"
+                autocomplete="off"
+                autocorrect="off"
+                contenteditable="true"
+                id="payloads"
+                spellcheck="false"
+                style="display: inline-block; box-sizing: border-box; vertical-align: top; height: 100%; flex: 1; margin: 0px; padding: 5px; overflow-x: hidden; overflow-y: auto; word-wrap: break-word; white-space: pre-line; color: rgb(212, 212, 212); outline: none;"
+              >
+                <span
+                  depth="1"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value="{"
+                >
+                  {
+                </span>
+                <br />
+                  
+                <span
+                  depth="1"
+                  style="color:#59A5D8"
+                  type="key"
+                  value="body"
+                >
+                  body
+                </span>
+                <span
+                  depth="1"
+                  style="color:#49B8F7"
+                  type="symbol"
+                  value=":"
+                >
+                  :
+                </span>
+                 
+                <span
+                  depth="1"
+                  style="color:#FA7921"
+                  type="string"
+                  value="''"
+                >
+                  ''
+                </span>
+                <br />
+                <span
+                  depth="0"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value="}"
+                >
+                  }
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-end pt-8"
+    >
+      <div
+        class="ant-col"
+      >
+        <button
+          class="button primary-button min-w-[120px]"
+          data-testid="preview-event-button"
+        >
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommunicationTemplate should display sms event when sms event details are provided 1`] = `
+<DocumentFragment>
+  <div
+    class="px-10 py-10"
+  >
+    <div
+      class="ant-row"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Type
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="SMS"
+            >
+              SMS
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Event name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter event name"
+          type="text"
+          value="user_cancelled_appointment"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Application Name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter application name"
+          type="text"
+          value="Doctors"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Enabled
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <button
+          aria-checked="false"
+          class="ant-switch bg-app-theme"
+          role="switch"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            Off
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Trigger limit
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          pattern="[+-]?\\\\d+(?:[.,]\\\\d+)?"
+          placeholder="Enter trigger limit"
+          type="number"
+          value="-1"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Select include
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Select include"
+            >
+              Select include
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-4"
+      >
+        <span
+          class="required"
+        >
+          Event text
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          class="ant-input-textarea ant-input-textarea-show-count"
+          data-count="234"
+        >
+          <textarea
+            class="ant-input"
+            placeholder="Event text / content"
+            style="resize: none; height: -40px; min-height: -16px; max-height: -40px;"
+          >
+            Dear {{patient}},
+Your consultation with {{doctor_name}} at {{time}}, {{date}} has been cancelled.
+Refund has been initated to your source account. It will reflect within 5-7 working days. We are sorry to see you go.
+Thanks. -Tata 1mg
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-divider ant-divider-horizontal"
+      role="separator"
+    />
+    <div
+      class="ant-row pt-2"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-24 text-left"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Payload(s)
+      </div>
+    </div>
+    <div
+      class="ant-row my-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          id="payloads-outer-box"
+          name="outer-box"
+          style="display: block; overflow: none; height: 200px; width: 100%; margin: 0px; box-sizing: border-box; position: relative;"
+        >
+          <div
+            style="opacity: 1; height: 30px; width: 30px; position: absolute; top: 0px; right: 0px; transform: translate(-25%,25%); pointer-events: none; transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+          >
+            <svg
+              height="30px"
+              viewBox="0 0 100 100"
+              width="30px"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M39.363,79L16,55.49l11.347-11.419L39.694,56.49L72.983,23L84,34.085L39.363,79z"
+                fill="green"
+                fill-rule="evenodd"
+                opacity="0.85"
+              />
+            </svg>
+          </div>
+          <div
+            id="payloads-container"
+            name="container"
+            style="display: block; height: 200px; width: 100%; margin: 0px; box-sizing: border-box; overflow: hidden; font-family: Roboto, sans-serif;"
+          >
+            <div
+              id="payloads-warning-box"
+              name="warning-box"
+              style="display: block; overflow: hidden; height: 0px; width: 100%; margin: 0px; background-color: rgb(254, 236, 235); transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+            >
+              <span
+                style="display: inline-block; height: 60px; width: 60px; margin: 0px; box-sizing: border-box; overflow: hidden; vertical-align: top; pointer-events: none;"
+              >
+                <div
+                  style="position: relative; top: 0px; left: 0px; height: 60px; width: 60px; margin: 0px; pointer-events: none;"
+                >
+                  <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;"
+                  >
+                    <svg
+                      height="25px"
+                      viewBox="0 0 100 100"
+                      width="25px"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M73.9,5.75c0.467-0.467,1.067-0.7,1.8-0.7c0.7,0,1.283,0.233,1.75,0.7l16.8,16.8  c0.467,0.5,0.7,1.084,0.7,1.75c0,0.733-0.233,1.334-0.7,1.801L70.35,50l23.9,23.95c0.5,0.467,0.75,1.066,0.75,1.8  c0,0.667-0.25,1.25-0.75,1.75l-16.8,16.75c-0.534,0.467-1.117,0.7-1.75,0.7s-1.233-0.233-1.8-0.7L50,70.351L26.1,94.25  c-0.567,0.467-1.167,0.7-1.8,0.7c-0.667,0-1.283-0.233-1.85-0.7L5.75,77.5C5.25,77,5,76.417,5,75.75c0-0.733,0.25-1.333,0.75-1.8  L29.65,50L5.75,26.101C5.25,25.667,5,25.066,5,24.3c0-0.666,0.25-1.25,0.75-1.75l16.8-16.8c0.467-0.467,1.05-0.7,1.75-0.7  c0.733,0,1.333,0.233,1.8,0.7L50,29.65L73.9,5.75z"
+                        fill="red"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </span>
+              <span
+                style="display: inline-block; height: 60px; width: calc(100% - 60px); margin: 0px; overflow: hidden; vertical-align: top; position: absolute; pointer-events: none;"
+              />
+            </div>
+            <div
+              id="payloads-body"
+              name="body"
+              style="display: flex; overflow: none; height: 100%; margin: 0px; resize: none; font-family: Roboto Mono, Monaco, monospace; font-size: 11px; background-color: rgb(252, 253, 253); transition-duration: 0.2s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);"
+            >
+              <span
+                id="payloads-labels"
+                name="labels"
+                style="display: inline-block; box-sizing: border-box; vertical-align: top; height: 100%; width: 44px; margin: 0px; padding: 5px 0px 5px 10px; overflow: hidden; color: rgb(212, 212, 212);"
+              >
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  1
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  2
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  3
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  4
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  5
+                </div>
+                <div
+                  style="color: rgb(212, 212, 212);"
+                >
+                  6
+                </div>
+              </span>
+              <span
+                autocapitalize="off"
+                autocomplete="off"
+                autocorrect="off"
+                contenteditable="true"
+                id="payloads"
+                spellcheck="false"
+                style="display: inline-block; box-sizing: border-box; vertical-align: top; height: 100%; flex: 1; margin: 0px; padding: 5px; overflow-x: hidden; overflow-y: auto; word-wrap: break-word; white-space: pre-line; color: rgb(212, 212, 212); outline: none;"
+              >
+                <span
+                  depth="1"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value="{"
+                >
+                  {
+                </span>
+                <br />
+                  
+                <span
+                  depth="1"
+                  style="color:#59A5D8"
+                  type="key"
+                  value="date"
+                >
+                  date
+                </span>
+                <span
+                  depth="1"
+                  style="color:#49B8F7"
+                  type="symbol"
+                  value=":"
+                >
+                  :
+                </span>
+                 
+                <span
+                  depth="1"
+                  style="color:#FA7921"
+                  type="string"
+                  value="''"
+                >
+                  ''
+                </span>
+                <span
+                  depth="1"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value=","
+                >
+                  ,
+                </span>
+                <br />
+                  
+                <span
+                  depth="1"
+                  style="color:#59A5D8"
+                  type="key"
+                  value="time"
+                >
+                  time
+                </span>
+                <span
+                  depth="1"
+                  style="color:#49B8F7"
+                  type="symbol"
+                  value=":"
+                >
+                  :
+                </span>
+                 
+                <span
+                  depth="1"
+                  style="color:#FA7921"
+                  type="string"
+                  value="''"
+                >
+                  ''
+                </span>
+                <span
+                  depth="1"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value=","
+                >
+                  ,
+                </span>
+                <br />
+                  
+                <span
+                  depth="1"
+                  style="color:#59A5D8"
+                  type="key"
+                  value="doctor_name"
+                >
+                  doctor_name
+                </span>
+                <span
+                  depth="1"
+                  style="color:#49B8F7"
+                  type="symbol"
+                  value=":"
+                >
+                  :
+                </span>
+                 
+                <span
+                  depth="1"
+                  style="color:#FA7921"
+                  type="string"
+                  value="''"
+                >
+                  ''
+                </span>
+                <span
+                  depth="1"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value=","
+                >
+                  ,
+                </span>
+                <br />
+                  
+                <span
+                  depth="1"
+                  style="color:#59A5D8"
+                  type="key"
+                  value="patient"
+                >
+                  patient
+                </span>
+                <span
+                  depth="1"
+                  style="color:#49B8F7"
+                  type="symbol"
+                  value=":"
+                >
+                  :
+                </span>
+                 
+                <span
+                  depth="1"
+                  style="color:#FA7921"
+                  type="string"
+                  value="''"
+                >
+                  ''
+                </span>
+                <br />
+                <span
+                  depth="0"
+                  style="color:#D4D4D4"
+                  type="symbol"
+                  value="}"
+                >
+                  }
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-end pt-8"
+    >
+      <div
+        class="ant-col"
+      >
+        <button
+          class="button primary-button min-w-[120px]"
+          data-testid="preview-event-button"
+        >
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommunicationTemplate should display whatsapp event when whatsapp event details are provided 1`] = `
+<DocumentFragment>
+  <div
+    class="px-10 py-10"
+  >
+    <div
+      class="ant-row"
+      style="margin: -5px -8px -5px -8px;"
+    >
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Type
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Whatsapp"
+            >
+              Whatsapp
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Event name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter event name"
+          type="text"
+          value="report_discripency_whatsapp"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Application Name
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          placeholder="Enter application name"
+          type="text"
+          value="diagnostics"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Enabled
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <button
+          aria-checked="false"
+          class="ant-switch bg-app-theme"
+          role="switch"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            Off
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <span
+          class="required"
+        >
+          Trigger limit
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <input
+          class="ant-input"
+          maxlength="30"
+          pattern="[+-]?\\\\d+(?:[.,]\\\\d+)?"
+          placeholder="Enter trigger limit"
+          type="number"
+          value="-1"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-4"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        Select include
+      </div>
+      <div
+        class="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-8"
+        style="padding: 5px 8px 5px 8px;"
+      >
+        <div
+          class="ant-select ant-select-single ant-select-show-arrow"
+          style="min-width: 100%; max-width: 100%;"
+        >
+          <div
+            class="ant-select-selector"
+          >
+            <span
+              class="ant-select-selection-search"
+            >
+              <input
+                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                aria-autocomplete="list"
+                aria-controls="rc_select_TEST_OR_SSR_list"
+                aria-haspopup="listbox"
+                aria-owns="rc_select_TEST_OR_SSR_list"
+                autocomplete="off"
+                class="ant-select-selection-search-input"
+                id="rc_select_TEST_OR_SSR"
+                readonly=""
+                role="combobox"
+                style="opacity: 0;"
+                type="search"
+                unselectable="on"
+                value=""
+              />
+            </span>
+            <span
+              class="ant-select-selection-item"
+              title="Select include"
+            >
+              Select include
+            </span>
+          </div>
+          <span
+            aria-hidden="true"
+            class="ant-select-arrow"
+            style="user-select: none;"
+            unselectable="on"
+          >
+            <span
+              aria-label="down"
+              class="anticon anticon-down ant-select-suffix"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="down"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-4"
+      >
+        <span
+          class="required"
+        >
+          Event text
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-row mt-4"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <div
+          class="ant-input-textarea ant-input-textarea-show-count"
+          data-count="2"
+        >
+          <textarea
+            class="ant-input"
+            placeholder="Event text / content"
+            style="resize: none; height: -40px; min-height: -16px; max-height: -40px;"
+          >
+            32
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-end pt-8"
+    >
+      <div
+        class="ant-col"
+      >
+        <button
+          class="button primary-button min-w-[120px]"
+          data-testid="preview-event-button"
+        >
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "refund_amount",
+    "label": "Refund Amount"
+  },
+  {
+    "id": "city_name",
+    "label": "City Name"
+  },
+  {
+    "id": "new_pincode",
+    "label": "New Pincode"
+  },
+  {
+    "id": "refund_cashback",
+    "label": "Refund Cashback"
+  },
+  {
+    "id": "old_pincode",
+    "label": "Old Pincode"
+  },
+  {
+    "id": "full_name",
+    "label": "Full Name"
+  },
+  {
+    "id": "street_name",
+    "label": "Street Name"
+  },
+
+  {
+    "id": "state_name",
+    "label": "State Name"
+  },
+  {
+    "id": "pin_code",
+    "label": "Pin Code"
+  },
+  {
+    "id": "phone_number",
+    "label": "Phone Number"
+  },
+  {
+    "id": "order_id",
+    "label": "Order Id"
+  },
+  {
+    "id": "order_item",
+    "label": "Order Item"
+  },
+  {
+    "id": "order_amount",
+    "label": "Order Amount"
+  },
+  {
+    "id": "shipping_amount",
+    "label": "Shipping Amount"
+  }
+]

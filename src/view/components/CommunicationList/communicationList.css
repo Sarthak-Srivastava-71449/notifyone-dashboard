@@ -1,0 +1,51 @@
+.communication-list-wrap {
+  max-width: 90%;
+  margin: 40px auto;
+  bottom: 10px;
+  position: relative;
+}
+
+.list-search {
+  position: relative;
+  left: 7.4%;
+  width: 65%;
+}
+
+.ant-col.selecter-wrapper {
+  width: 46.4%;
+}
+
+.ant-input-group-wrapper {
+  max-width: 76.1% !important;
+  width: 100% !important;
+}
+
+.search-link-wrapper {
+  box-shadow: 0 2px 4px #ddd;
+  border: 1px solid #ddd;
+  margin-top: 0;
+  padding-left: 0;
+  background: #fff;
+  max-height: 150px;
+  overflow-y: scroll;
+  position: absolute;
+  width: 50%;
+  top: 87%;
+  z-index: 9;
+}
+
+.search-list {
+  padding: 4px 5px 5px 10px;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-list:hover {
+  background-color: #f1f1f1;
+  color: #2196f3;
+}
+
+.search-content {
+  max-height: 150px;
+}

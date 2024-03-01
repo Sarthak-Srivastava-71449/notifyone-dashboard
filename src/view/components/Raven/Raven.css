@@ -1,0 +1,204 @@
+/* Root Node css start */
+.raven-wrapper {
+  max-width: 90%;
+  margin: 40px auto;
+  bottom: 10px;
+  position: relative;
+  background: #eee;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 7px 10px 10px 14px #fff;
+}
+.raven-wrapper
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  font-size: 14px !important;
+  vertical-align: 2px !important;
+}
+
+.raven-wrapper .ant-collapse {
+  border: 0 !important;
+  background: #fff !important;
+  margin: 12px 0 !important;
+}
+
+.raven-wrap {
+  width: 75%;
+}
+.ant-collapse-item-disabled > .ant-collapse-header .ant-collapse-arrow {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+.raven-wrapper .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 12px !important;
+  align-items: center !important;
+  box-shadow: 2px 2px 0px 0px rgb(0 0 0 / 8%);
+  border-radius: 6px !important;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  background: #eee !important;
+}
+.link {
+  color: #1890ff;
+}
+link:hover {
+  color: #40a9ff;
+}
+.ant-collapse {
+  position: relative;
+}
+.node-link {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.link.edit-option {
+  display: flex;
+  align-items: center;
+}
+.raven-wrapper
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-header-text {
+  display: inline-block;
+  inline-size: 40%;
+  flex: none;
+  margin-right: 20px;
+  color: #222 !important;
+  word-break: break-word;
+  text-align: justify;
+}
+
+.condition-btn {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  height: 25px;
+  align-items: center;
+  box-shadow: 0 2px 2px 0 #fff;
+  border-radius: 4px;
+  width: 27px;
+  background: #0000000d;
+  border: 1px solid #0000000d;
+}
+
+.raven-wrapper
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-extra {
+  height: 35px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.ant-collapse-extra > .edit-option {
+  display: flex;
+  align-items: center;
+}
+.raven-wrapper .anticon.anticon-edit {
+  padding: 0 8px;
+}
+.inner-item {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-node-btn,
+.edit-link {
+  margin-left: auto;
+}
+
+.raven-wrapper input.ant-input.input-number {
+  width: 200px;
+}
+
+.raven-form-title {
+  color: #1890ff;
+}
+/* Root Node css end */
+
+/* Edit Action css start */
+.wallet-wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.wallet-wrapper .ant-select-selector {
+  height: 34px !important;
+}
+
+.wallet-wrapper .ant-input {
+  padding: 4px 5px !important;
+}
+
+.node-name {
+  padding: 4px 5px !important;
+}
+
+.wallet-wrapper .ant-select-selector {
+  padding: 0 7px !important;
+}
+
+.screen-test {
+  border: 1px solid #a9a9a9;
+  color: #a9a9a9;
+  padding: 0 12px;
+  margin-top: 8px;
+}
+.no-character > span {
+  color: #a9a9a9;
+}
+
+.linknode-details-id {
+  color: #a9a9a9;
+}
+
+.no-character .character {
+  color: #a9a9a9;
+  font-weight: 500;
+}
+/* Edit Action css end */
+
+/* Edit Node css start */
+.width-9 {
+  width: 10%;
+}
+.width-91 {
+  width: 91%;
+}
+
+.ant-collapse-content.ant-collapse-content-active
+  .ant-collapse-header
+  .edit-node-btn
+  .parent-edit-btn {
+  display: none !important;
+}
+
+.raven-wrapper
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .child-edit-btn {
+  display: none;
+}
+
+.ant-collapse-content.ant-collapse-content-active
+  .ant-collapse-header
+  .edit-node-btn
+  .child-edit-btn {
+  display: block;
+}
+
+.raven-wrapper .ant-checkbox-group {
+  padding: 0 12px;
+}
+/* Edit Node css end */

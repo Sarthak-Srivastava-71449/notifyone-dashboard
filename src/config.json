@@ -1,0 +1,84 @@
+{
+  "common": {
+    "sentry": {
+      "dns": ""
+    },
+    "serverDomain": "http://127.0.0.1:3000/",
+    "gumletS3BaseUrl": "https://onemg.gumlet.io"
+  },
+  "communication": {
+    "appUrl": "",
+    "communicationAppUrlPort": 8000,
+    "emailEvents": "wallet_api/email/templates",
+    "emailEventsUpdate": "wallet_api/email/template",
+    "passPhrase": "",
+    "platformLogin": "",
+    "previewEmailEvent": "wallet_api/email/template/preview",
+    "pushNotificationEvents": "wallet_api/order/push/templates",
+    "pushNotificationEventsUpdate": "wallet_api/order/push/template",
+    "sentry": {
+      "dns": ""
+    },
+    "serverDomain": "https://plutointernalapi.1mg.com/",
+    "smsEvents": "wallet_api/sms/templates",
+    "smsEventsUpdate": "wallet_api/sms/template",
+    "tata1mgLogo": "",
+    "useMockAPI": false,
+    "whatsAppEvents": "wallet_api/whatsapp/templates",
+    "whatsAppEventsUpdate": "wallet_api/whatsapp/template",
+    "ravenAppEndpoint": "wallet_api/raven"
+  },
+  "platform": {
+    "appUrl": "local.odinweb.1mg.com",
+    "emails": {
+      "1mg": "1mg.com",
+      "2mg": "2mg.in",
+      "gmail": "gmail.com"
+    },
+    "logoutRoute": "logout",
+    "userPassloginRoute": "login",
+    "loginRoute": "google-signin",
+    "passPhrase": "Yq3s6v9y$B&E)H@M",
+    "platformAppUrlPort": 4000,
+    "google_client_id": "636386266577-mksatrgqp8e9urtk67loc95uqub9ntpl.apps.googleusercontent.com",
+    "sentry": {
+      "dns": "https://6905b8f2131a4b27b2c04889442ab09b@o1111710.ingest.sentry.io/6140972"
+    },
+    "serverDomain": "http://127.0.0.1:3000/",
+    "userInfoRoute": "userinfo",
+    "usermanagementURL": "wallet_api/user"
+  },
+  "user": {
+    "appUrl": "",
+    "login": "",
+    "userAppUrlPort": "8002",
+    "sentry": {
+      "dns": ""
+    },
+    "loginRoute": "google-signin",
+    "passPhrase": "",
+    "serverDomain": "http://127.0.0.1:3000/",
+    "userRole": "user/admin/v6",
+    "userInfoRoute": "userinfo",
+    "usermanagementURL": "wallet_api/user"
+  },
+  "server": {
+    "env": "prod",
+    "is_secure": false,
+    "port": 3000,
+    "base_api_url": "https://plutoapi.1mg.com",
+    "base_labs_url": "https://pluto.1mg.com/labs/admin",
+    "auth_api_url": "https://plutointernalapi.1mg.com/auth",
+    "base_dmg_url": "https://pluto.1mg.com",
+    "base_notification_url": "https://plutointernalapi.1mg.com",
+    "base_site_url": "0.0.0.0",
+    "google_client_id": "636386266577-mksatrgqp8e9urtk67loc95uqub9ntpl.apps.googleusercontent.com",
+    "jwt_secret": "WqGfoEqsK3wPBsqxY1RH9XlV15wk4n46",
+    "labs_api_url": "https://pluto.1mglabs.com",
+    "base_vendor_cenops_url": "https://plutointernalapi.1mg.com/centralops_service",
+    "base_vendor_phoenix_url": "https://plutointernalapi.1mg.com/phoenix_analytics",
+    "base_eta_service_url": "https://plutointernalapi.1mg.com/eta_service",
+    "orders_api_identifier": "/common_order_taking",
+    "orders_base_api_url": "https://plutointernalapi.1mg.com"
+  }
+}

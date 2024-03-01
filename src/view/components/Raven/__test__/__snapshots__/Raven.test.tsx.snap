@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Raven Test-Suite Match Raven Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="raven-wrapper"
+  >
+    <h2
+      class="text-lg raven-form-title font-semibold text-center py-1"
+    >
+      Root Node
+    </h2>
+  </div>
+</DocumentFragment>
+`;

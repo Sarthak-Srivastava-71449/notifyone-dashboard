@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkNode Test-Suite Match Link Node Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="popup"
+    >
+      <div
+        class="wrapper"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="header"
+          >
+            Linked of Node IDs
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-xs-push-6 col-md-push-8"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

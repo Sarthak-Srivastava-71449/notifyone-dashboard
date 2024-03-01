@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Raven Sub-Node-Test Suite Match Create Node Snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="ant-collapse ant-collapse-icon-position-start"
+      role="tablist"
+    >
+      <div
+        class="ant-collapse-item ant-collapse-item-disabled"
+      >
+        <div
+          aria-disabled="true"
+          aria-expanded="false"
+          class="ant-collapse-header"
+          role="tab"
+          tabindex="-1"
+        >
+          <div
+            class="ant-collapse-expand-icon"
+          >
+            <span
+              aria-label="right"
+              class="anticon anticon-right ant-collapse-arrow"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                />
+              </svg>
+            </span>
+          </div>
+          <span
+            class="ant-collapse-header-text"
+          >
+            undefined undefined
+          </span>
+          <div
+            class="ant-collapse-extra"
+          >
+            <div
+              class="flex link items-center"
+            >
+              <div
+                class="inner-item"
+              >
+                <div
+                  class="px-1 font-semibold text-sm"
+                >
+                  <a
+                    class="condition-btn px-1 py-1 link"
+                  >
+                    F
+                  </a>
+                </div>
+                <div
+                  class="ml-3"
+                >
+                  <input
+                    class="ant-input custom-input input-number focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6  rounded-md py-1 px-1.5  shadow-sm"
+                    data-testid="rank-number"
+                    placeholder="Rank"
+                    type="number"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="ml-3"
+                >
+                  <a
+                    class="link ml-1.5 px-1"
+                  >
+                    Change Action
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

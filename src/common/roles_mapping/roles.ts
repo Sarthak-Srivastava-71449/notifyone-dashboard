@@ -1,0 +1,247 @@
+const ROLES: any = {
+  DEPRECATED_PAGE: ['DEPRECATED_PAGE'],
+  PHARMACY: ['PAYMENT_PHARMACY'],
+  DOCTORS: ['PAYMENT_DOCTORS'],
+  PAYMENT_MANAGEMENT: ['PH_APP', 'PAYMENT_ADMIN'],
+  DIAGNOSTICS: ['PAYMENT_DIAGNOSTICS'],
+  REFUND_VIEW: ['PH_APP', 'PAYMENT_REFUND_VIEW'],
+  REFUND: ['PH_APP', 'PAYMENT_REFUND'],
+  LINK_DASHBOARD: ['PAYMENT_LINK', 'SEND_PAYMENT_LINK'],
+  CAD_USER_MANAGEMENT: ['PH_APP', 'USER_ADMIN'],
+
+  WALLET_APP: ['WALLET_APP', 'WALLET_ADMIN'],
+  SUBSCRIPTION_APP: ['PH_APP', 'SUBSCRIPTION'],
+
+  PHARMACY_PAYMENT_GROUP: ['PAYMENT_PHARMACY', 'PAYMENT_GROUP'],
+  PHARMACY_PAYMENT_WALLET: ['PAYMENT_PHARMACY', 'PAYMENT_WALLET'],
+  PHARMACY_PAYMENT_UPI: ['PAYMENT_PHARMACY', 'PAYMENT_UPI'],
+  PHARMACY_PAYMENT_NB: ['PAYMENT_PHARMACY', 'PAYMENT_NB'],
+  PHARMACY_PAYMENT_AGGREGATOR: ['PAYMENT_PHARMACY', 'PAYMENT_AGGREGATOR'],
+
+  DOCTORS_PAYMENT_GROUP: ['PAYMENT_DOCTORS', 'PAYMENT_GROUP'],
+  DOCTORS_PAYMENT_WALLET: ['PAYMENT_DOCTORS', 'PAYMENT_WALLET'],
+  DOCTORS_PAYMENT_UPI: ['PAYMENT_DOCTORS', 'PAYMENT_UPI'],
+  DOCTORS_PAYMENT_NB: ['PAYMENT_DOCTORS', 'PAYMENT_NB'],
+  DOCTORS_PAYMENT_AGGREGATOR: ['PAYMENT_DOCTORS', 'PAYMENT_AGGREGATOR'],
+
+  DIAGNOSTICS_PAYMENT_GROUP: ['PAYMENT_DIAGNOSTICS', 'PAYMENT_GROUP'],
+  DIAGNOSTICS_PAYMENT_WALLET: ['PAYMENT_DIAGNOSTICS', 'PAYMENT_WALLET'],
+  DIAGNOSTICS_PAYMENT_UPI: ['PAYMENT_DIAGNOSTICS', 'PAYMENT_UPI'],
+  DIAGNOSTICS_PAYMENT_NB: ['PAYMENT_DIAGNOSTICS', 'PAYMENT_NB'],
+  DIAGNOSTICS_PAYMENT_AGGREGATOR: ['PAYMENT_DIAGNOSTICS', 'PAYMENT_AGGREGATOR'],
+
+  COMMUNICATION_RAVEN: ['HELP_APP'],
+  RAVEN_ADMIN: ['HELP_APP', 'HELP_ADMIN'],
+  COMMUNICATION_APP: ['LARA_APP'],
+
+  // ------------ DMG component specific roles ------------------ //
+  LABS_ACCESS: [
+    'dmg_app',
+    'ADMIN',
+    'INVENTORY_MANAGER',
+    // 'PROD_CONTENT_TESTING_USER',
+  ],
+
+  //Star Content ROLE MAPPING
+  STAR_CONTENT_ACCESS: ['dmg_app', 'ROLE_ADMIN', 'ADMIN', '1MG_MAKER'],
+  // User Management Role Mapping
+
+  USER_MANAGEMENT: ['USER_MANAGEMENT', 'USER_MANAGEMENT_ADMIN'],
+
+  // Labs Role Mapping
+  PATHALOGY_BOOKINGS: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'VENDOR',
+    'CUSTOMER_CARE',
+    'FINANCE',
+    'TELESALES',
+  ],
+  RADIOLOGY_BOOKINGS: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'CUSTOMER_CARE',
+    'FINANCE',
+    'TELESALES',
+  ],
+  LEADS: ['1mg_diagnostics', 'ADMIN', 'CUSTOMER_CARE', 'FINANCE', 'TELESALES'],
+  HARDCOPY_ORDERS: ['1mg_diagnostics', 'ADMIN', 'CUSTOMER_CARE'],
+  ROLE_MANAGEMENT: ['1mg_diagnostics', 'ADMIN'],
+  UPDATE_HOME_PAGE: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  LAB_ORDERS: ['1mg_diagnostics', 'LEAD_VENDOR'],
+  REPORT_CHALLENGE: ['1mg_diagnostics', 'ADMIN', 'RESOLVING_AGENT'],
+  CREATE_PREBOOKING: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'LEAD_VENDOR',
+    'LEAD_VENDOR_MANAGER',
+  ],
+  VIEW_PREBOOKING: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'LEAD_VENDOR',
+    'LEAD_VENDOR_MANAGER',
+  ],
+  CREATE_NEW_BOOKING: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'CUSTOMER_CARE',
+    'CREATE_BOOKING',
+    'AFFILIATE',
+    'TELESALES',
+  ],
+  CREATE_NEW_BOOKING_COLLECTION_CENTRE: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'COLLECTION_CENTRE_AGENT',
+  ],
+  INSURANCE_BOOKINGS_LIST: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'LEAD_VENDOR',
+    'LEAD_VENDOR_MANAGER',
+  ],
+  PRESCRIPTION_LIST: ['1mg_diagnostics', 'ADMIN', 'CUSTOMER_CARE', 'TELESALES'],
+  VIEW_CAMPS: [
+    '1mg_diagnostics',
+    'ADMIN',
+    'LEAD_VENDOR',
+    'LEAD_VENDOR_MANAGER',
+  ],
+  CREATE_CAMP_ORDERS: ['1mg_diagnostics', 'ADMIN', 'CUSTOMER_CARE'],
+  BLOCK_SLOT: ['1mg_diagnostics', 'ADMIN', 'SLOT_MANAGER'],
+  BOOKING_ALERTS: ['1mg_diagnostics', 'ADMIN', 'CUSTOMER_CARE'],
+  CREATE_NEW_SKU: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  UPDATE_SKU: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  UPDATE_BOOKING: ['1mg_diagnostics', 'ADMIN', 'UPDATE_BOOKING_ADMIN'],
+  CREATE_NEW_INVENTORY: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  INVENTORY_STATUS: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  CREATE_LABS: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  UPDATE_LABS: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  CREATE_CITY: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  CREATE_INVENTORY: ['1mg_diagnostics', 'INVENTORY_MANAGER', 'ADMIN'],
+  LABS_PAYMENT: ['1mg_diagnostics', 'ADMIN', 'FINANCE'],
+  UPSELL_VIEW: ['1mg_diagnostics', 'ADMIN', 'UPSELL_MANAGER'],
+  UPSELL_CREATE: ['1mg_diagnostics', 'ADMIN', 'UPSELL_MANAGER'],
+  INVENTORY_VIEW: ['1mg_diagnostics', 'ADMIN', 'INVENTORY_MANAGER'],
+  COT_APP: [
+    'COT_APP',
+    'ROOT_ADMIN',
+    'ROLE_ADMIN',
+    'ORDER_PLACE',
+    'ROLE_MANAGER',
+    'ROLE_TEAM_LEAD',
+    'ROLE_TRACK_ORDER',
+  ],
+  // HomePage role (components, cohorts, pages)
+  HOME_PAGE_CRUD: ['dmg_app', 'ROLE_ADMIN', 'HOME_PAGE_ADD_EDIT'],
+
+  //SBD role
+  SBD_LIMITS: ['HOME_PAGE_ADD_EDIT'],
+
+  // Drugs Role Mapping -
+  // Parent drug, Child drug, Drug interactions, Rx Validity,
+  // Side Effect, Pharmacological Class, Therapeutic Class, Contraindications
+  DRUG_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'DRUG_ADD_EDIT',
+    'DRUG_DETAILS_ADD_EDIT',
+  ],
+  DRUG_DETAILS_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'DRUG_ADD_EDIT',
+    'DRUG_DETAILS_ADD_EDIT',
+  ],
+  DRUG_INTERACTIONS_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'DRUG_INTERACTIONS_ADD_EDIT',
+  ],
+  RX_VALIDITY_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'RX_VALIDITY_ADD_EDIT',
+  ],
+  SIDE_EFFECTS_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'SIDE_EFFECTS_ADD_EDIT',
+  ],
+  PHARMACOLOGICAL_CLASS: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'PHARMACOLOGICAL_CLASS',
+  ],
+  THERAPEUTIC_CLASS_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'THERAPEUTIC_CLASS_ADD_EDIT',
+  ],
+  CONTRAINDICATIONS_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'CONTRAINDICATIONS_ADD_EDIT',
+  ],
+
+  // Disease Role Mapping -
+  // Disease Information, ICD
+  DISEASE_ADD_EDIT: [
+    'dmg_app',
+    'ROLE_ADMIN',
+    'CMS_TEST_USER',
+    'DISEASE_ADD_EDIT',
+  ],
+  ICD_ADD_EDIT: ['dmg_app', 'ROLE_ADMIN', 'CMS_TEST_USER', 'ICD_ADD_EDIT'],
+
+  // Pricing Service Roles
+  PRICING_SERVICE: [
+    'pricing_service',
+    'ADMIN',
+    'READ_RULES',
+    'RETAIL_ADMIN',
+    'CORPORATE_ADMIN',
+  ],
+  DISCOUNT_RULES: [
+    'pricing_service',
+    'ADMIN',
+    'RETAIL_ADMIN',
+    'CORPORATE_ADMIN',
+  ],
+  EDIT_CORPORATE_DISCOUNT_RULES: [
+    'pricing_service',
+    'ADMIN',
+    'CORPORATE_ADMIN',
+  ],
+  EDIT_RETAIL_DISCOUNT_RULES: ['pricing_service', 'ADMIN', 'RETAIL_ADMIN'],
+  SKU_BULK_UPLOAD_RULES: [
+    'pricing_service',
+    'ADMIN',
+    'MODERATOR',
+    'RETAIL_ADMIN',
+    'CORPORATE_ADMIN',
+  ],
+  BRAND_OFFERS: ['pricing_service', 'ADMIN', 'MODERATOR', 'RETAIL_ADMIN'],
+  DATA_SCIENCE_RULES: [
+    'pricing_service',
+    'ADMIN',
+    'MODERATOR',
+    'RETAIL_ADMIN',
+    'CORPORATE_ADMIN',
+  ],
+  PACK_OF_MULTIPLES: ['pricing_service', 'ADMIN', 'RETAIL_ADMIN', 'MODERATOR'],
+  SKU_PRICE_UPLOAD: ['pricing_service', 'ADMIN', 'RETAIL_ADMIN'],
+  GROSS_MARGIN: ['pricing_service', 'ADMIN', 'RETAIL_ADMIN'],
+  HEALTH_RECORD: ['ROLE_ADMIN', 'ROLE_SUPER_ADMIN'],
+};
+
+export default ROLES;

@@ -1,0 +1,25 @@
+{
+  "communication": {
+    "appUrl": "",
+    "communicationAppUrlPort": 8000,
+    "emailEvents": "wallet_api/email/templates",
+    "emailEventsUpdate": "wallet_api/email/template",
+    "passPhrase": "",
+    "platformLogin": "",
+    "previewEmailEvent": "wallet_api/email/template/preview",
+    "pushNotificationEvents": "wallet_api/order/push/templates",
+    "pushNotificationEventsUpdate": "wallet_api/order/push/template",
+    "sentry": {
+      "dns": ""
+    },
+    "serverDomain": "http://127.0.0.1:3000/",
+    "smsEvents": "wallet_api/sms/templates",
+    "smsEventsUpdate": "wallet_api/sms/template",
+    "tata1mgLogo": "",
+    "useMockAPI": false,
+    "whatsAppEvents": "wallet_api/whatsapp/templates",
+    "whatsAppEventsUpdate": "wallet_api/whatsapp/template",
+    "ravenAppEndpoint": "wallet_api/raven",
+    "imageHost": "onemg.gumlet.io"
+  }
+}

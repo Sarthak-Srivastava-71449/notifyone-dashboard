@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Raven Edit Action Test Suite Match Edit Action Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="raven-wrapper"
+  >
+    <div
+      class="mx-auto wallet-wrapper raven-wrap shadow-md"
+    >
+      <h2
+        class="text-lg font-semibold raven-form-title text-center py-1"
+      >
+        Edit Node  Action Form
+      </h2>
+      <div
+        class="py-2 px-3 flex-col flex"
+      >
+        <div
+          class="flex  mb-3 gap-4"
+        >
+          <div
+            class="input-label flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Node Name
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <input
+                class="ant-input custom-input  focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6  rounded-md py-1 px-1.5  shadow-sm"
+                data-testid="editNodeName"
+                placeholder="Node Name"
+                type="text"
+                value=""
+              />
+            </span>
+            <div
+              class="no-character px-1.5"
+            />
+          </div>
+          <div
+            class="flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Header Name
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <input
+                class="ant-input custom-input  focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6  rounded-md py-1 px-1.5  shadow-sm"
+                data-testid="headerName"
+                placeholder="Header Name"
+                type="text"
+                value=""
+              />
+              <div
+                class="no-character px-1.5"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex mb-3 gap-4"
+        >
+          <div
+            class="input-label flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Type Details
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <div
+                class="ant-select w-full ant-select-single ant-select-show-arrow"
+              >
+                <div
+                  class="ant-select-selector"
+                >
+                  <span
+                    class="ant-select-selection-search"
+                  >
+                    <input
+                      aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                      aria-autocomplete="list"
+                      aria-controls="rc_select_TEST_OR_SSR_list"
+                      aria-haspopup="listbox"
+                      aria-owns="rc_select_TEST_OR_SSR_list"
+                      autocomplete="off"
+                      class="ant-select-selection-search-input"
+                      id="rc_select_TEST_OR_SSR"
+                      readonly=""
+                      role="combobox"
+                      style="opacity: 0;"
+                      type="search"
+                      unselectable="on"
+                      value=""
+                    />
+                  </span>
+                  <span
+                    class="ant-select-selection-item"
+                    title=""
+                  />
+                </div>
+                <span
+                  aria-hidden="true"
+                  class="ant-select-arrow"
+                  style="user-select: none;"
+                  unselectable="on"
+                >
+                  <span
+                    aria-label="down"
+                    class="anticon anticon-down ant-select-suffix"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="down"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </div>
+            </span>
+          </div>
+          <div
+            class="flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Ticket Priority
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <div
+                class="ant-select w-full ant-select-single ant-select-show-arrow"
+              >
+                <div
+                  class="ant-select-selector"
+                >
+                  <span
+                    class="ant-select-selection-search"
+                  >
+                    <input
+                      aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                      aria-autocomplete="list"
+                      aria-controls="rc_select_TEST_OR_SSR_list"
+                      aria-haspopup="listbox"
+                      aria-owns="rc_select_TEST_OR_SSR_list"
+                      autocomplete="off"
+                      class="ant-select-selection-search-input"
+                      id="rc_select_TEST_OR_SSR"
+                      readonly=""
+                      role="combobox"
+                      style="opacity: 0;"
+                      type="search"
+                      unselectable="on"
+                      value=""
+                    />
+                  </span>
+                  <span
+                    class="ant-select-selection-item"
+                    title="None Priority"
+                  >
+                    None Priority
+                  </span>
+                </div>
+                <span
+                  aria-hidden="true"
+                  class="ant-select-arrow"
+                  style="user-select: none;"
+                  unselectable="on"
+                >
+                  <span
+                    aria-label="down"
+                    class="anticon anticon-down ant-select-suffix"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="down"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex mb-3 flex-col mt-3 gap-4"
+        >
+          <div
+            class="input-label flex-1"
+          >
+            <span
+              class="text-sm font-semibold mr-2"
+            >
+              Optional Fields
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span />
+          </div>
+          <div
+            class="flex-1"
+          >
+            <span
+              class="text-sm font-semibold mr-2"
+            >
+              Required Fields
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span />
+          </div>
+        </div>
+        <div
+          class="flex mb-3 flex-col gap-4"
+        >
+          <div
+            class="input-label flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Screen Text
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <textarea
+                class="ant-input"
+                placeholder="<b>Mandatory Details</b><br>1. Image of product to indicate products name, MRP, manufacturing date and batch number<br>2. Image of the bill sent by partner pharmacy"
+                rows="4"
+              />
+              <div
+                class="no-character"
+              />
+            </span>
+          </div>
+          <div
+            class="flex-1"
+          >
+            <span
+              class="text-sm font-semibold"
+            >
+              Response Text
+              <span
+                class="px-1"
+              >
+                :
+              </span>
+            </span>
+            <span>
+              <textarea
+                class="ant-input"
+                placeholder="<b>Thank you!</b><br>We have received your message and will be in touch over your registered email id as soon as possible."
+                rows="4"
+              />
+              <div
+                class="no-character"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex justify-center items-center"
+        >
+          <button
+            class="button primary-button mr-1.5"
+            data-testid="custom-button"
+          >
+            Back
+          </button>
+          <button
+            class="button primary-button "
+            data-testid="custom-button"
+          >
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
