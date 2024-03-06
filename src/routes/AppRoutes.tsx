@@ -92,6 +92,7 @@ const AppRoutes: React.FC<AppRouteProps> = ({
   // );
 
   return (
+    //rendering the routes
     <Suspense fallback={<Spinner loading />}>
       <Routes>
         <Route path="/" element={<Dashboard />}>
