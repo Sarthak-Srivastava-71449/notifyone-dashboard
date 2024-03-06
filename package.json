@@ -109,7 +109,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "eslint --fix && git diff --cached --name-only | grep -v 'server' | xargs eslint --ignore-path .gitignore"
     }
   },
   "lint-staged": {

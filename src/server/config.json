@@ -1,0 +1,9 @@
+{
+  "env": "stag",
+  "is_secure": false,
+  "port": 3000,
+  "base_api_url": "https://moonapi.1mg.com",
+  "base_site_url": "0.0.0.0",
+  "google_client_id": "636386266577-mksatrgqp8e9urtk67loc95uqub9ntpl.apps.googleusercontent.com",
+  "jwt_secret": "WqGfoEqsK3wPBsqxY1RH9XlV15wk4n46"
+}

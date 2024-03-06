@@ -1,0 +1,19 @@
+{
+  "server": {
+    "env": "prod",
+    "is_secure": false,
+    "port": 3000,
+    "base_api_url": "",
+    "base_labs_url": "",
+    "labs_api_url": "https://stagapi.1mglabs.com",
+    "auth_api_url": "",
+    "base_dmg_url": "",
+    "base_site_url": "0.0.0.0",
+    "base_notification_url": "",
+    "google_client_id": "",
+    "jwt_secret": "",
+    "base_vendor_cenops_url": "",
+    "base_vendor_phoenix_url": "",
+    "base_eta_service_url": ""
+  }
+}

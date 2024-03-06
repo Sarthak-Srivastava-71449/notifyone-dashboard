@@ -53,40 +53,91 @@ const AppRoutes: React.FC<AppRouteProps> = ({
   //   dispatch(fetchUserInfo(accessToken));
   // }, []);
 
+  // return (
+  //   <Suspense fallback={<Spinner loading />}>
+  //     <Routes>
+  //       <Route path="/" element={<CommunicationList />}>
+  //         <Route path="templates" element={<CommunicationList />}>
+  //           <Route path="sms" element={<CommunicationList />} />
+  //           <Route path="whatsapp" element={<CommunicationList />} />
+  //           <Route path="transaction" element={<CommunicationList />} />
+  //           <Route path="email" element={<CommunicationList />} />
+  //         </Route>
+  //         <Route path="template/sms/:id" element={<Communication />} />
+  //         <Route path="template/transaction/:id" element={<Communication />} />
+  //         <Route path="template/email/:id" element={<Communication />} />
+  //         <Route path="template/whatsapp/:id" element={<Communication />} />
+  //         <Route path="raven" element={<Raven />} />
+  //         <Route path="raven/action/create" element={<CreateAction />} />
+  //         <Route path="raven/node/create" element={<CreateNode />} />
+  //         <Route path="raven/edit/:id" element={<EditNode />} />
+  //         <Route path="raven/edit/action/:id" element={<EditAction />} />
+  //         {/* {userRoles && (
+  //           <Route
+  //             path=""
+  //             element={<Navigate to={findDefaultRoute(userRoles)} replace />}
+  //           />
+  //         )} */}
+  //       </Route>
+  //       {/* <Route
+  //         path="*"
+  //         element={<Navigate to={findDefaultRoute(userRoles)} replace />}
+  //       />
+  //       <Route
+  //         path="/"
+  //         element={<Navigate to={findDefaultRoute(userRoles)} replace />}
+  //       /> */}
+  //     </Routes>
+  //   </Suspense>
+  // );
+
   return (
     <Suspense fallback={<Spinner loading />}>
       <Routes>
         <Route path="/" element={<Dashboard />}>
-          <Route path="templates" element={<CommunicationList />}>
-            <Route path="sms" element={<CommunicationList />} />
-            <Route path="whatsapp" element={<CommunicationList />} />
-            <Route path="transaction" element={<CommunicationList />} />
-            <Route path="email" element={<CommunicationList />} />
-          </Route>
-          <Route path="template/sms/:id" element={<Communication />} />
-          <Route path="template/transaction/:id" element={<Communication />} />
-          <Route path="template/email/:id" element={<Communication />} />
-          <Route path="template/whatsapp/:id" element={<Communication />} />
-          <Route path="raven" element={<Raven />} />
-          <Route path="raven/action/create" element={<CreateAction />} />
-          <Route path="raven/node/create" element={<CreateNode />} />
-          <Route path="raven/edit/:id" element={<EditNode />} />
-          <Route path="raven/edit/action/:id" element={<EditAction />} />
-          {/* {userRoles && (
-            <Route
-              path=""
-              element={<Navigate to={findDefaultRoute(userRoles)} replace />}
-            />
-          )} */}
+          <>
+            <Route path="communication" element={<CommunicationList />}>
+              <Route path="templates" element={<CommunicationList />}>
+                <Route path="sms" element={<CommunicationList />} />
+                <Route path="whatsapp" element={<CommunicationList />} />
+                <Route path="transaction" element={<CommunicationList />} />
+                <Route path="email" element={<CommunicationList />} />
+              </Route>
+              <Route path="template/sms/:id" element={<Communication />} />
+              <Route
+                path="template/transaction/:id"
+                element={<Communication />}
+              />
+              <Route path="template/email/:id" element={<Communication />} />
+              <Route path="template/whatsapp/:id" element={<Communication />} />
+              <Route path="raven" element={<Raven />} />
+              <Route path="raven/action/create" element={<CreateAction />} />
+              <Route path="raven/node/create" element={<CreateNode />} />
+              <Route path="raven/edit/:id" element={<EditNode />} />
+              <Route path="raven/edit/action/:id" element={<EditAction />} />
+              {/* {userRoles && (
+                    <Route
+                      path=""
+                      element={
+                        <Navigate to={findDefaultRoute(userRoles)} replace />
+                      }
+                    />
+                  )} */}
+            </Route>
+            {/* <Route
+                  path="*"
+                  element={
+                    <Navigate to={findDefaultRoute(userRoles)} replace />
+                  }
+                />
+                <Route
+                  path="/"
+                  element={
+                    <Navigate to={findDefaultRoute(userRoles)} replace />
+                  }
+                /> */}
+          </>
         </Route>
-        {/* <Route
-          path="*"
-          element={<Navigate to={findDefaultRoute(userRoles)} replace />}
-        />
-        <Route
-          path="/"
-          element={<Navigate to={findDefaultRoute(userRoles)} replace />}
-        /> */}
       </Routes>
     </Suspense>
   );
